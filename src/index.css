@@ -6,8 +6,52 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+:root {
+  --color-primary: #222831;
+  --color-secondary: #31363F;
+  --color-accent: #ffbdbd;
+  --color-background: #EEEEEE;
+}
+.background-accent{
+  background-color: var(--color-accent) !important;
+}
+
+/* Example usage */
+body {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img{
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+
+}
+
+.mainlogo{
+  max-width: 50px;
+  
+}
+.blocksize{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  aspect-ratio: 1 / 1;
+  text-align: center;
+}
+
+.blocksize img{
+  max-width: 130px;
+  display: block;
+  margin: auto;
+  padding-block: 45px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
