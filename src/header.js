@@ -8,7 +8,7 @@ function Header() {
     return(
       <nav className="navbar navbar-expand-lg background-accent">
       <div className="container-fluid container">
-        <a href='#'>
+        <a href='/'>
           <img className='mainlogo pe-2' src='/logo.png'></img>
         </a>
         <a className="navbar-brand fw-bold" href="#">Billing App</a>
